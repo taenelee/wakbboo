@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+                body{
+                        background-image: url("table.jpg");
+                        background-size: cover;
+                        text-align: center;
+                }
+
+                #one{
+                        width: 20%;
+                        margin-right: 8%;
+                }
+
+                #two{
+                        width: 17%;
+                        margin-right: 3%;
+                }
+
+                #three{
+                        width: 22%;
+                }
+
+                #four{
+                        width: 18%;
+                        margin-right: 10%;
+                        margin-top: 2%;
+                }
+
+                #five{
+                        width: 22%;
+                        margin-right: 7%;
+                }
+
+                #six{
+                        width: 17%;
+                }
+
+                #seven{
+                        width: 19%;
+                        margin-right: 15%;
+                        margin-top: 2%;
+                }
+
+                #eight{
+                        width: 21%;
+                }
+        </style>
+</head>
+
+<body>
+
+        <audio src="1s.MP3" id="onesnd"></audio>
+        <img src="1-1.png" id="one">
+
+        <audio src="2s.MP3" id="twosnd"></audio>
+        <img src="2-1.png" id="two">
+
+        <audio src="3s.MP3" id="threesnd"></audio>
+        <img src="3-1.png" id="three">
+
+        <br>
+
+        <audio src="4s.MP3" id="foursnd"></audio>
+        <img src="4-1.png" id="four">
+
+        <audio src="5s.MP3" id="fivesnd"></audio>
+        <img src="5-1.png" id="five">
+
+        <audio src="6s.MP3" id="sixsnd"></audio>
+        <img src="6-1.png" id="six">
+
+        <br>
+
+        <audio src="7s.MP3" id="sevensnd"></audio>
+        <img src="7-1.png" id="seven">
+
+        <audio src="8s.MP3" id="eightsnd"></audio>
+        <img src="8-1.png" id="eight">
+
+
+      <script>
+
+let oneclick = "no";
+
+one.onclick = function(){
+        if(oneclick == "no"){
+                one.src = "1-2.png";
+                oneclick = "yes";
+                onesnd.play();
+        }else if(oneclick == "yes"){
+                one.src = "1-1.png";
+                oneclick = "no";
+        }
+};
+
+
+let twoclick = "no";
+
+two.onclick = function(){
+        if(twoclick == "no"){
+                two.src = "2-2.png";
+                twoclick = "yes";
+                twosnd.play();
+        }else if(twoclick == "yes"){
+                two.src = "2-1.png";
+                twoclick = "no";
+        }
+};
+
+
+let threeclick = "no";
+
+three.onclick = function(){
+        if(threeclick == "no"){
+                three.src = "3-2.png";
+                threeclick = "yes";
+                threesnd.play();
+        }else if(threeclick == "yes"){
+                three.src = "3-1.png";
+                threeclick = "no";
+        }
+};
+
+
+let fourclick = "no";
+
+four.onclick = function(){
+        if(fourclick == "no"){
+                four.src = "4-2.png";
+                fourclick = "yes";
+                foursnd.play();
+        }else if(fourclick == "yes"){
+                four.src = "4-1.png";
+                fourclick = "no";
+        }
+};
+
+
+let fiveclick = "no";
+
+five.onclick = function(){
+        if(fiveclick == "no"){
+                five.src = "5-2.png";
+                fiveclick = "yes";
+                fivesnd.play();
+        }else if(fiveclick == "yes"){
+                five.src = "5-1.png";
+                fiveclick = "no";
+        }
+};
+
+
+let sixclick = "no";
+
+six.onclick = function(){
+        if(sixclick == "no"){
+                six.src = "6-2.png";
+                sixclick = "yes";
+                sixsnd.play();
+        }else if(sixclick == "yes"){
+                six.src = "6-1.png";
+                sixclick = "no";
+        }
+};
+
+
+let sevenclick = "no";
+
+seven.onclick = function(){
+        if(sevenclick == "no"){
+                seven.src = "7-2.png";
+                sevenclick = "yes";
+                sevensnd.play();
+        }else if(sevenclick == "yes"){
+                seven.src = "7-1.png";
+                sevenclick = "no";
+        }
+};
+
+
+let eightclick = "no";
+
+eight.onclick = function(){
+        if(eightclick == "no"){
+                eight.src = "8-2.png";
+                eightclick = "yes";
+                eightsnd.play();
+        }else if(eightclick == "yes"){
+                eight.src = "8-1.png";
+                eightclick = "no";
+        }
+};
+
+</script>
+
+</body>
+</html>
